@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7cec2b34c7.js" crossorigin="anonymous"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://kit.fontawesome.com/277d889efd.js" crossorigin="anonymous"></script>
-    <title>Calory project</title>
+    <meta charset="UTF-8">
+    <title>calory project</title>
 </head>
 <body>
-<!-- NavBar -->
+<!--Navbar-->
 <nav>
-    <div class="nav-wrapper-blue">
+    <div class="nav-wrapper magenta">
         <div class="container">
-            <a href="#" class="brand-logo-center">Track calories</a>
+            <a href="#" class="brand-logo center">Track Calories</a>
         </div>
     </div>
 </nav>
-
 <br>
-
 <div class="container">
-    <!-- form card -->
+    <!--form card-->
     <div class="card">
         <div class="card-content">
             <span class="card-title">Add Meal / Food Item</span>
@@ -35,22 +32,20 @@
                         <input type="text" placeholder="Add Calories" id="item-calories">
                         <label for="item-calories">Calories</label>
                     </div>
-                    <button class="add-btn btn blue darken-3"><i class="fa fa-plus"></i> Add Meal </button>
+                    <button class="add-btn btn magenta"><i class="fas fa-plus"></i> Add Meal</button>
                 </div>
             </form>
         </div>
     </div>
 
 
-<!-- Calorie count -->
-<h3 class="center-align">Total Calories: <span class="total-calories">0</span></h3>
+    <!--Calorie counter-->
+    <h3 class="center-align">Total Calories: <span class="total-calories">0</span></h3>
 
-<!-- Item List -->
-<ul id="item-list" class="collection"></ul>
-
+    <!--Item List-->
+    <ul id="item-list" class="collection"></ul>
 </div>
-
-<!-- Compiled and minified Javascript -->
+<!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="app.js"></script>
 </body>
